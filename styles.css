@@ -1,0 +1,92 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #752424;
+}
+header {
+    text-align: center;
+    border-bottom: 1px solid #eaecef;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+h1 {
+    font-size: 2.25rem;
+    color: #24292e;
+    margin-bottom: 5px;
+}
+.subtitle {
+    color: #6a737d;
+    font-size: 1.1rem;
+    margin-top: 0;
+}
+/* Estilo de los Menús Desplegables (Acordeón) */
+details {
+    border: 1px solid #eaecef;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    background-color: #f6f8fa;
+    transition: all 0.3s ease;
+}
+summary {
+    padding: 15px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none; /* Quita la flecha por defecto en algunos navegadores */
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Añadir una flecha personalizada */
+summary::after {
+    content: "▼";
+    font-size: 0.8rem;
+    color: #0366d6;
+}
+details[open] summary::after {
+    content: "▲";
+}
+details[open] {
+    background-color: #fff;
+}
+details[open] summary {
+    border-bottom: 1px solid #eaecef;
+    margin-bottom: 10px;
+}
+.content {
+    padding: 15px 25px;
+}
+/* Botones y enlaces */
+a {
+    color: #0366d6;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.btn-link {
+    display: inline-block;
+    background: #0366d6;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+.btn-link:hover {
+    background: #0056b3;
+    text-decoration: none;
+}
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #6a737d;
+    border-top: 1px solid #eaecef;
+    padding-top: 20px;
+}
