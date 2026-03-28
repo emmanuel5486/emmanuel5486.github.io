@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(95, 120, 155);
+ 
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.9px; /* separación entre imágenes */
+      background-color: #707dab;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 600px;   /* el tamaño que quieras */
+    margin: 0 auto; /* para centrarlo */
+
+}
